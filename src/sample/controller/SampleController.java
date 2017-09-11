@@ -21,6 +21,13 @@ public class SampleController
 		PlayDohCircle thirdCircle;
 		thirdCircle = new PlayDohCircle(10);
 		
+		System.out.println("Here is my play do circle");
+		System.out.println(firstCircle);
+		System.out.println("Here is my second circle " + secondCircle);
+		
+		
+		
+		
 		
 		System.out.println("This is a sample proect to show the github and");
 		System.out.println("eclipse process so I develop muscle memory :D");
