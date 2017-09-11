@@ -7,8 +7,13 @@ public class PlayDohCircle
 	//NEED TO BE PRIVATE
 	private int size;
 	
-	public PlayDohCicle()
+	public PlayDohCircle()
 	{
 		this.size = 5;
+	}
+	
+	public PlayDohCircle(int size)
+	{
+		this.size = size;
 	}
 }
