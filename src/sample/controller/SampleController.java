@@ -39,8 +39,11 @@ public class SampleController
 	{
 		Scanner firstScanner; //Decres a Scanner object.
 		firstScanner = new Scanner(System.in); //Instanciates a Scanner object.
-		System.out.println("Please type your favouite food");
+		System.out.println("Please type your favorite food");
 		String answer = firstScanner.nextLine();
 		System.out.println("Oh, you like to eat " + answer);
+		System.out.println("How old  you?????");
+		int ageAnswer = firstScanner.nextInt();
+		System.out.println("You said that you are " + ageAnswer + " years old");
 	}
 }
